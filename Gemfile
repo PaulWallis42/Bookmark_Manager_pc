@@ -1,7 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-group :development, :test do
+gem 'data_mapper'
+gem 'dm-postgres-adapter'
+
+group :test do
   gem 'rspec'
-  gem 'capybara'  
+  gem 'capybara'
 end
