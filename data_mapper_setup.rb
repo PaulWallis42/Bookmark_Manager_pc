@@ -9,6 +9,5 @@ require './app/models/link' # require each model individually - the path may var
 
 # After declaring your models, you should finalise them
 DataMapper.finalize
-
 # However, the database tables don't exist yet. Let's tell datamapper to create them
 DataMapper.auto_upgrade!

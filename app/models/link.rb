@@ -7,6 +7,6 @@ class Link
   property :title,  String
   property :url,    String
 
-  DataMapper.finalize
 
+  DataMapper.finalize
 end
